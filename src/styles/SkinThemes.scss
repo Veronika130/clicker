@@ -1,0 +1,71 @@
+/* DEFAULT */
+.theme--default {
+  .activeTab--upgrades { background-color: #43aa8b; }
+  .activeTab--cases { background-color: #73BFB8; }
+  .activeTab--skins { background-color: #FEC601; }
+  .activeTab--achievements { background-color: #f78025; }
+
+  .tabContent--upgrades { background-color: #e6ffe9; }
+  .tabContent--cases { background-color: #dffffb; }
+  .tabContent--skins { background-color: #ffffd3; }
+  .tabContent--achievements { background-color: #fff1d7; }
+
+  .tabItem--0 { background-color: #43aa8b; }
+  .tabItem--1 { background-color: #73BFB8; }
+  .tabItem--2 { background-color: #FEC601; }
+  .tabItem--3 { background-color: #f78025; }
+}
+
+/* NEON */
+.theme--neon {
+  .activeTab--upgrades { background-color: #39ff14; }
+  .activeTab--cases { background-color: #0ff; }
+  .activeTab--skins { background-color: #f0f; }
+  .activeTab--achievements { background-color: #fff700; }
+
+  .tabContent--upgrades { background-color: #121212; }
+  .tabContent--cases { background-color: #1a1a1a; }
+  .tabContent--skins { background-color: #1e1e1e; }
+  .tabContent--achievements { background-color: #262626; }
+
+  .tabItem--0 { background-color: #39ff14; }
+  .tabItem--1 { background-color: #0ff; }
+  .tabItem--2 { background-color: #f0f; }
+  .tabItem--3 { background-color: #fff700; }
+}
+
+/* SUNSET */
+.theme--sunset {
+  .activeTab--upgrades { background-color: #FF5E3A; }
+  .activeTab--cases { background-color: #FF9500; }
+  .activeTab--skins { background-color: #FFCC00; }
+  .activeTab--achievements { background-color: #FFA500; }
+
+  .tabContent--upgrades { background-color: #fff4e6; }
+  .tabContent--cases { background-color: #fff0cc; }
+  .tabContent--skins { background-color: #fff8e1; }
+  .tabContent--achievements { background-color: #fff5d9; }
+
+  .tabItem--0 { background-color: #FF5E3A; }
+  .tabItem--1 { background-color: #FF9500; }
+  .tabItem--2 { background-color: #FFCC00; }
+  .tabItem--3 { background-color: #FFA500; }
+}
+
+/* AQUA */
+.theme--aqua {
+  .activeTab--upgrades { background-color: #00FFFF; }
+  .activeTab--cases { background-color: #008080; }
+  .activeTab--skins { background-color: #004C4C; }
+  .activeTab--achievements { background-color: #00CED1; }
+
+  .tabContent--upgrades { background-color: #e0ffff; }
+  .tabContent--cases { background-color: #ccffff; }
+  .tabContent--skins { background-color: #b3f0f0; }
+  .tabContent--achievements { background-color: #cceff5; }
+
+  .tabItem--0 { background-color: #00FFFF; }
+  .tabItem--1 { background-color: #008080; }
+  .tabItem--2 { background-color: #004C4C; }
+  .tabItem--3 { background-color: #00CED1; }
+}

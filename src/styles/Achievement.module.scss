@@ -1,0 +1,51 @@
+.achievementGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.achievementCard {
+  background-color: #fff1d7;
+  border: 2px solid #f78025;
+  border-radius: 12px;
+  padding: 16px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.progressBar {
+  width: 100%;
+  height: 10px;
+  background-color: #fff1d7;
+  border: 2px solid #f78025;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 12px 0 6px;
+}
+
+.progressFill {
+  height: 100%;
+  background: #f78025;
+  border-radius: 6px;
+  transition: width 0.3s ease;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: rgb(0, 0, 0);
+}
+
+p {
+  font-size: 14px;
+  color: #000000;
+}

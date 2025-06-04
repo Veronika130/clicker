@@ -1,0 +1,38 @@
+.tabsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+.tabHeaders {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 20px;
+
+  button {
+    background: transparent;
+    border: none;
+    color: #00ffff;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    transition: border-color 0.3s;
+
+    &:hover {
+      border-color: #ff00ff;
+    }
+  }
+}
+
+.tabContent {
+  width: 100%;
+}
+
+.active {
+  border-bottom: 2px solid #00ffff;
+  color: #00ffff;
+}

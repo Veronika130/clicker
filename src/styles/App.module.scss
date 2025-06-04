@@ -1,0 +1,158 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.appContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 100vh;
+  gap: 40px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.leftPanel {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.title {
+  font-size: 1.4rem;
+  align-self: flex-start;
+  color: #000000;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.credits {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+.clickImage {
+  width: 320px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.clickImage:active {
+  transform: scale(0.95);
+}
+
+.tabWrapper {
+  display: flex;
+  width: 70%;
+  height: 100%;
+  gap: 0;
+}
+
+.tabList {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-right: -10px;
+}
+
+.tabItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px 0 0 15px;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.2s ease;
+  color: var(--text-color); 
+  width: 36px;
+  height: 150px;
+  margin-top: 24px;
+  text-align: center;
+  position: relative;
+  line-height: 0.8;
+  background-color: var(--accent-color); 
+}
+
+.activeTab {
+  width: 46px;
+  transform: translateX(-10px);
+  background-color: var(--primary-color, var(--accent-color)); // 🎯
+}
+
+.tabItem span {
+  display: block;
+}
+
+.tabContent {
+  flex-grow: 1;
+  min-height: 500px;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.activeTab--upgrades { background-color: #43aa8b; }
+.activeTab--cases { background-color: #73BFB8; }
+.activeTab--skins { background-color: #FEC601; }
+.activeTab--achievements { background-color: #f78025; }
+
+.tabContent--upgrades { background-color: #e6ffe9; }
+.tabContent--cases { background-color: #dffffb; }
+.tabContent--skins { background-color: #ffffd3; }
+.tabContent--achievements { background-color: #fff1d7; }
+
+.tabItem--0 {
+  background-color: #43aa8b;
+}
+.tabItem--1 {
+  background-color: #73BFB8;
+}
+.tabItem--2 {
+  background-color: #FEC601;
+}
+.tabItem--3 {
+  background-color: #f78025;
+}
+
+.sectionTitle {
+  font-size: 1.6rem;
+  color: #4b0082;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.cardPlaceholder {
+  width: 100%;
+  min-height: 120px;
+  background: #e0e0ff;
+  border: 2px dashed #aab;
+  border-radius: 12px;
+  padding: 16px;
+  color: #555;
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
